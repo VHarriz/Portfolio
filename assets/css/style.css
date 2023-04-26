@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.header {
+    padding: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+.card-outline {
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* min-height: 100%; */
+  padding: 30px;
+  /* background-color: darkolivegreen; */
+  color: lightblue;
+  outline: 2px solid black;
+  outline-offset: -10px;
+  /* transition: all 0.5s ease-in-out; */
+}
+.most {
+    background-color: darkslategray;
+}
+.aboutMe {
+    display: flex;
+    align-items: center;
+    background-color: darkkhaki;
+}
+.latestProject {
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+.thanks {
+    display: flex;
+    align-items: center;
+    background-color: darkkhaki;
+}
+p {
+    display: flex;
+    text-align: center;
+    color: black;
+}
+a {
+    color: #ffffff;
+}
